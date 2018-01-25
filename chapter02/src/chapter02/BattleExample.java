@@ -18,7 +18,7 @@ public class BattleExample {
  
 			// 컴퓨터의 선택 - 랜덤하게 ??? 문제발생 
 			// int com = (int)(Math.random() * 3) + 1;
-			char com = (char) ((Math.random() * 3) + (int)'1');
+			char com = (char) ((int)(Math.random() * 3) + '1');
 			
 			// 승부 결정 - 이겼으면 종료, 졌으면 다시
 			if(com =='1') {	// 컴 - 가위
