@@ -38,7 +38,9 @@ public class BattleExample {
 					run = false;
 				}
 			}
-			
+			if(!run) {
+				System.out.println("이기지 못했습니다. 다시 합니다.");
+			}
 			
 		}
 
